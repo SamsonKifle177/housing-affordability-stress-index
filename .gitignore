@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+
+*.sqlite
+*.db
+*.pbix

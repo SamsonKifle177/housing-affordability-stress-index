@@ -1,0 +1,13 @@
+pandas
+numpy
+requests
+matplotlib
+seaborn
+plotly
+jupyter
+sqlalchemy
+scikit-learn
+statsmodels
+openpyxl
+pycountry
+country_converter
