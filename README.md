@@ -115,6 +115,20 @@ This is a custom analytical index, not an official affordability measure.
 - Some countries rank highly because they are currently high stress, while others are important because their stress score deteriorated significantly over time.
 - The stress score is best used as an early-warning framework for further analysis, not as a final policy diagnosis.
 
+## Advanced Feature: Country Clustering
+
+I added an unsupervised machine learning layer using K-Means clustering to group countries into housing market profiles based on affordability stress, valuation pressure, real house prices, urban population growth, and the house-price-income gap.
+
+The final model used three clusters:
+
+1. High valuation pressure markets
+2. Urban growth and income pressure markets
+3. Lower stress / stable markets
+
+![Country Housing Market Clusters](images/country_housing_market_clusters.png)
+
+This clustering step turns the project from a ranking dashboard into a market segmentation analysis.
+
 ## Business Recommendations
 
 1. Monitor countries where price-to-income and price-to-rent ratios are both elevated.
